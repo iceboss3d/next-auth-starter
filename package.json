@@ -1,0 +1,35 @@
+{
+  "name": "next-auth-starter",
+  "version": "1.0.0",
+  "description": "Bootstrap a Next.js app with Prisma, shadcn, and authentication",
+  "main": "dist/bin/index.js",
+  "bin": {
+    "create-next-auth-app": "dist/bin/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "commander": "^14.0.0",
+    "execa": "^8.0.1",
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "typescript": "^5.5.0"
+  },
+  "keywords": [
+    "nextjs",
+    "cli",
+    "authentication",
+    "prisma",
+    "shadcn",
+    "tailwind",
+    "nextauth"
+  ],
+  "files": [
+    "dist/**/*"
+  ],
+  "author": "@iceboss3d",
+  "license": "ISC"
+}
